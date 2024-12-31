@@ -8,7 +8,7 @@ const Project = ({number=0, projectName="Project Name", type="type", videoUrl=""
     const {setText} = useContext(CursorTextContext);
 
     return (
-        <LinkWithLoader to={`/works/${projectName.replace(' ', '-').toLowerCase()}`} onMouseOver={() => setText("explore")} onMouseLeave={() => setText('')} className={`p-5 flex flex-row justify-between items-center w-full border border-neutral-900 border-x-0 group max-h-1/5 h-1/5 hover:h-full relative overflow-hidden transition-all duration-500 ${className}`}>
+        <LinkWithLoader to={`/works/${projectName.replace(' ', '-').toLowerCase()}`} onMouseOver={() => setText("explore")} onMouseLeave={() => setText('')} className={`p-5 flex flex-row justify-between items-center w-full border border-neutral-200 border-x-0 group max-h-1/5 h-1/5 hover:h-full relative overflow-hidden transition-all duration-500 ${className}`}>
             <div className="flex flex-row gap-[200px] items-center">
                 <Header2>{number >= 10 ? number : `0${number}`}</Header2>
                 <Header2 className="uppercase" >{projectName}</Header2>

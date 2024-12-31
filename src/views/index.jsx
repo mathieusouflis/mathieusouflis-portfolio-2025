@@ -25,7 +25,7 @@ function Index() {
       <div className='flex px-[10px] py-[90px] bg-gray-900 justify-center'>
         <Display className="text-white after:bg-white"><span className='text-indigo-400'>UX / UI</span> Designer</Display>
       </div>
-      <div className='px-5 py-[50px] flex flex-col gap-16 h-screen max-w-screen'>
+      <div className='px-5 mt-10 py-[50px] flex flex-col gap-16 h-screen max-w-screen'>
         <Header1>Projects</Header1>
         <div className='flex flex-col justify-self-center h-4/5 max-w-full'>
           <Project className='border-t-0' number={1} projectName={project1.title} type={project1.types.join(" - ")} year={project1.year} videoUrl={project1.cover}/>
