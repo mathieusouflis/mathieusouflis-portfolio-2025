@@ -4,11 +4,12 @@ import { Body, Display } from "../typography/typography";
 import { useContext } from "react";
 import { CursorTextContext } from "../../hooks/cursorProvider";
 import LinkWithLoader from "../loader/LinkLoader";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
     const {setText} = useContext(CursorTextContext);
-
+    
     return (
         <footer className="flex flex-col gap-20 px-[10px] py-6 justify-center items-center">
                     <div className="flex flex-row gap-[10px] w-full items-center ">
@@ -19,9 +20,9 @@ const Footer = () => {
                     <div className="flex gap-[60px]">
                         <Display>Let's</Display>
                         <span className="relative overflow-hidden">
-                            <LinkWithLoader onMouseOver={() => setText("text me")} onMouseOut={() => setText("")} to="mailto:mathieu@souflis.fr">
+                            <Link onMouseOver={() => setText("text me")} onMouseOut={() => setText("")} to="mailto:mathieu@souflis.fr">
                                 <Display  className="before:content-['Connect'] before:absolute before:-top-full before:text-indigo-600 hover:translate-y-full transition-all duration-300 ease-slow"><span className="text-indigo-500">Connect</span></Display>
-                            </LinkWithLoader>
+                            </Link>
                         </span>
                     </div>
                 <div className="w-full">
