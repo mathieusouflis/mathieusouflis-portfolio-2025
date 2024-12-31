@@ -3,6 +3,7 @@ import Project from '../components/project/Project'
 import { Display, Header1 } from '../components/typography/typography'
 import { CursorTextContext } from '../hooks/cursorProvider';
 import projectData from '../data/projectsData.json'
+import RotatingText from "../components/rotatingText/RotatingText"
 
 function Index() {
   const { setText } = useContext(CursorTextContext);
@@ -23,7 +24,9 @@ function Index() {
         <Display className="text-center" >Mathieu souflis</Display>
       </div>
       <div className='flex px-[10px] py-[90px] bg-gray-900 justify-center'>
-        <Display className="text-white after:bg-white"><span className='text-indigo-400'>UX / UI</span> Designer</Display>
+        {/* <Display className="text-white after:bg-white"><span className='text-indigo-400'>UX / UI</span> Designer</Display> */}
+        <RotatingText />
+    
       </div>
       <div className='px-5 mt-10 py-[50px] flex flex-col gap-16 h-screen max-w-screen'>
         <Header1>Projects</Header1>
