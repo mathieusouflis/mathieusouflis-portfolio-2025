@@ -9,7 +9,7 @@ const Loader = () => {
     const [queryParameters] = useSearchParams();
     const business_name = queryParameters.get("business_name");
     const normalTexts = ["486", "sapalyuk", "I love you", "v11", "v11"];
-    const businessTexts = [business_name, "welcome", "to", "my", "portfolio.", "Have", "fun", "❤️", "❤️"];
+    const businessTexts = [business_name, "welcome", "to", "my", "portfolio.", "Have", "fun", "✨", "✨"];
     const texts = business_name ? businessTexts : normalTexts;
     const intervalDuration = business_name ? 500 : 300;
     const i = useRef(0);
