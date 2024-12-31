@@ -40,7 +40,7 @@ const ProjectPage = () => {
             <div onMouseOver={(e) => { if (!e.target.closest('.cta')) setText("SCROLL") }} onMouseOut={(e) => { if (!e.target.closest('.cta')) setText("") }} className="flex flex-col gap-[30px] justify-center h-screen px-5">
                 <Display>{project.title}</Display>
                 <div className='flex flex-row  w-full gap-5'>
-                    <Video className='border pointer-events-none w-[55%] aspect-[17/11]' url={project.cover} />
+                    <Video className='border border-neutral-900 pointer-events-none w-[55%] aspect-[17/11]' url={project.cover} />
                     <div className="flex flex-col gap-8 justify-between">
                         <div className='flex flex-col gap-5'>
                             {project?.date >= 0 && <DescriptionElement title="Date" content={[project.date]} />}
@@ -60,9 +60,9 @@ const ProjectPage = () => {
                     return (
                         <div key={index} className='w-3/5 gap-[10px] flex flex-col'>
                             {url.startsWith("https://player.vimeo.com/") ? (
-                                <Video className='border aspect-[17/11]' url={url} />
+                                <Video className='border border-neutral-900 aspect-[17/11]' url={url} />
                             ) : (
-                                <img className='border' src={url} alt={label} />
+                                <img className='border border-neutral-900' src={url} alt={label} />
                             )}
                             <Body>{index + 1 < 10 ? `0${index + 1}/` : `${index + 1}/`} {label}</Body>
                         </div>
@@ -76,7 +76,7 @@ const ProjectPage = () => {
                         <Video className="absolute top-1/2 left-1/2 w-full aspect-[17/11] object-cover transform -translate-x-1/2 -translate-y-1/2 brightness-75" url={nextProject.cover} />
                     </div>
                 ) : (
-                    <img className='border h-full' src={nextProject.cover} />
+                    <img className='border border-neutral-900 h-full' src={nextProject.cover} />
                 )}
             </LinkWithLoader>
         </>
