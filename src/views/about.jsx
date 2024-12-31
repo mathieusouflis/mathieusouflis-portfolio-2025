@@ -17,13 +17,21 @@ const About = () => {
             <div className="w-[926px] pb-96 grid grid-flow-col gap-12">
                 <img className="pt-16 sticky top-0 w-full aspect-[16/18] object-cover" src="/assets/Mathieu Souflis.png" alt="the most beautifull man (mathieu souflis)" />
                 <div className="pt-16 flex flex-col gap-5 max-w-[453px]">
-                    <Body className="leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolorem voluptates veritatis accusamus nulla itaque nisi aliquam labore velit sunt.</Body>
-                    <Body className="leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolorem voluptates veritatis accusamus nulla itaque nisi aliquam labore velit sunt.</Body>
-                    <Body className="leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolorem voluptates veritatis accusamus nulla itaque nisi aliquam labore velit sunt.</Body>
-                    <Body className="leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolorem voluptates veritatis accusamus nulla itaque nisi aliquam labore velit sunt.</Body>
-                    <Body className="leading-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui labore dolore, molestias facilis voluptates reiciendis cumque unde nemo, natus dicta deserunt et vero, dignissimos repellat! Illum quasi, doloribus assumenda mollitia corporis, at sunt asperiores voluptas itaque aperiam molestiae neque adipisci.</Body>
-                    <Body className="leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia dolorem voluptates veritatis accusamus nulla itaque nisi aliquam labore velit sunt.</Body>
-                    <Body className="leading-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui labore dolore, molestias facilis voluptates reiciendis cumque unde nemo, natus dicta deserunt et vero, dignissimos repellat! Illum quasi, doloribus assumenda mollitia corporis, at sunt asperiores voluptas itaque aperiam molestiae neque adipisci.</Body>
+                    <Body className="leading-normal text-neutral-500">
+                        <span className="font-semibold text-black">Passionate web developer</span>, curious and creative, I dive into the world of development and design every day. Currently a student at <span className="font-semibold text-black">HETIC (2024-2027)</span>, I am pursuing a <span className="font-semibold text-black">Bachelor's degree in Web Development</span> in Paris, where I have a strong thirst for learning. Prior to that, I earned my <span className="font-semibold text-black">high school diploma at La Source (2022-2024)</span>.
+                    </Body>
+                    <Body className="leading-normal text-neutral-500">
+                        With several professional experiences under my belt, I had the opportunity to work as an <span className="font-semibold text-black">observer intern at Redpelicans</span> and <span className="font-semibold text-black underline">soon as a freelancer</span>. These experiences have allowed me to gain a concrete understanding of the challenges in the professional world while fostering my sense of initiative and autonomy. Every mission is an opportunity for me to learn and deepen my skills.
+                    </Body>
+                    <Body className="leading-normal text-neutral-500">
+                        Outside my passion for web development, I am a true enthusiast of <span className="font-semibold text-black">UI/UX design</span>, and I spend countless hours exploring the latest trends in the field. My interest in <span className="font-semibold text-black">innovation</span> is also fueled by my love for <span className="font-semibold text-black">music</span>: in 2024, I listened to over <span className="font-semibold text-black">152,000 minutes of music</span>, which allows me to escape and fuel my creativity.
+                    </Body>
+                    <Body className="leading-normal text-neutral-500">
+                        I am also a <span className="font-semibold text-black">big consumer of technology</span>, always on the lookout for the latest trends to stay updated and refine my knowledge. Finally, my language skills include <span className="font-semibold text-black">French (native)</span>, <span className="font-semibold text-black">English (C1 level)</span>, and a bit of Spanish.
+                    </Body>
+                    <Body className="leading-normal text-neutral-500">
+                        I believe that <span className="font-semibold text-black">innovation</span> is born at the intersection of <span className="font-semibold text-black">creativity</span>, <span className="font-semibold text-black">technology</span>, and <span className="font-semibold text-black">curiosity</span>. My goal is to combine these three elements to design web projects that are both aesthetically pleasing, functional, and cutting-edge. <span className="font-semibold text-black">Designing & developing with passion to create unforgettable digital experiences</span> is the philosophy that guides each of my projects, where every line of code and every design is crafted to provide an unforgettable digital experience.
+                    </Body>
                 </div>
             </div>
             <div className="w-[926px] grid grid-flow-col gap-12 pb-28">

@@ -47,6 +47,7 @@ const ProjectPage = () => {
                             {project?.description !== "" && <DescriptionElement title="Description" content={[project.description]} />}
                             {project?.types.length > 0 && <DescriptionElement title="Types" content={[project.types.join(" - ")]} />}
                             {project?.technologies.length > 0 && <DescriptionElement title="Tech" content={project.technologies} />}
+                            {project?.collaborators.length > 0 && <DescriptionElement title="Collaboration" content={project.collaborators} />}
                             {project?.status !== "" && <DescriptionElement title="Status" content={[project.status]} />}
                         </div>
                         {project?.url !== "" && <Cta URL={project.url} onMouseOver={() => setText("")} className="relative font-semibold cta">Visit Website</Cta>}
