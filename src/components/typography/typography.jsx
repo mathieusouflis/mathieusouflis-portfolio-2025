@@ -1,5 +1,5 @@
 const Display = ({ className, children }) => {
-    return <h1 className={`font-evafiya text-9xl uppercase ${className ? className : ''}`}>{children}</h1>;
+    return <h1 className={`font-practical font-thin text-9xl uppercase ${className ? className : ''}`}>{children}</h1>;
 };
 
 

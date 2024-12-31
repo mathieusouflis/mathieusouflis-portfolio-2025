@@ -14,7 +14,7 @@ export default {
         'trim-loose': '-0.2em',
       },
       fontFamily: {
-        'evafiya': ['Evafiya'],
+        'practical': ['practical-serif'],
         'geist': ['Geist'],
       }
     }
