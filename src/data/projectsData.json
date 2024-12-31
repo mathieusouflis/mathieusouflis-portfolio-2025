@@ -1,0 +1,95 @@
+{
+    "nova": {
+        "title": "Nova",
+        "date": 2024,
+        "url": "https://nova.mathieusouflis.com/",
+        "description": "The result is a holistic solution that provided Fingertip with established design rules for their widget library and a series of new widgets designed using best practices. This work will allow the team to expand in the future while maintaining harmony and reducing inconsistencies in their product.",
+        "types": ["Fullstack"],
+        "technologies": ["React", "Express", "Node.js", "MongoDB", "PosgreSQL", "Prisma"],
+        "status": "---",
+        "cover": "https://player.vimeo.com/video/1043086725",
+        "images": [
+            ["Register", "https://player.vimeo.com/video/1043086692"],
+            ["Login", "https://player.vimeo.com/video/1043086697"],
+            ["Feed - Post", "https://player.vimeo.com/video/1043086705"],
+            ["Comments", "https://player.vimeo.com/video/1043086709"],
+            ["Profile", "https://player.vimeo.com/video/1043086713"],
+            ["The App", "https://player.vimeo.com/video/1043086725"]
+        ],
+        "next": "deleguee"
+    },
+    "deleguee": {
+        "title": "Deleguee",
+        "date": 2024,
+        "url": "",
+        "description": "The result is a holistic solution that provided Fingertip with established design rules for their widget library and a series of new widgets designed using best practices. This work will allow the team to expand in the future while maintaining harmony and reducing inconsistencies in their product.",
+        "types": ["Frontend","Creative"],
+        "technologies": ["React", "ThreeJS"],
+        "status": "Finished",
+        "cover": "https://player.vimeo.com/video/1043086457",
+        "images": [
+            ["Introduction", "https://player.vimeo.com/video/1043086272"],
+            ["Transition", "https://player.vimeo.com/video/1043086276"],
+            ["Presentation", "https://player.vimeo.com/video/1043086385"],
+            ["Ending", "https://player.vimeo.com/video/1043086390"],
+            ["Full Presentation", "https://player.vimeo.com/video/1043086457"]
+        ],
+        "next": "music-player"
+    },
+    "music-player": {
+        "title": "Music Player",
+        "date": 2024,
+        "url": "",
+        "description": "The result is a holistic solution that provided Fingertip with established design rules for their widget library and a series of new widgets designed using best practices. This work will allow the team to expand in the future while maintaining harmony and reducing inconsistencies in their product.",
+        "types":["Ui/Ux"],
+        "technologies": ["Figma"],
+        "status": "Finished",
+        "cover": "https://player.vimeo.com/video/1043086890",
+        "images": [
+            ["Player", "https://player.vimeo.com/video/1043086747"],
+            ["Queue", "https://player.vimeo.com/video/1043086765"],
+            ["Path", "https://player.vimeo.com/video/1043086773"],
+            ["Full Vidéo", "https://player.vimeo.com/video/1043086890"]
+        ],
+
+        "next": "ai-research"
+    },
+    "ai-research": {
+        "title": "AI Research",
+        "date": 2024,
+        "url": "https://ai-project.mathieusouflis.com/",
+        "description": "The result is a holistic solution that provided Fingertip with established design rules for their widget library and a series of new widgets designed using best practices. This work will allow the team to expand in the future while maintaining harmony and reducing inconsistencies in their product.",
+        "types": ["Frontend"],
+        "technologies": ["React"],
+        "status": "Finished",
+        "cover": "https://player.vimeo.com/video/1043086147",
+        "images": [
+            ["Homepage", "https://player.vimeo.com/video/1043086022"],
+            ["Benchmark", "https://player.vimeo.com/video/1043086026"],
+            ["Research", "https://player.vimeo.com/video/1043086038"],
+            ["Tutorial", "https://player.vimeo.com/video/1043086063"],
+            ["Exploration", "https://player.vimeo.com/video/1043086085"],
+            ["Crew", "https://player.vimeo.com/video/1043086110"],
+            ["Full Video", "https://player.vimeo.com/video/1043086147"]
+        ],
+
+        "next": "lao-cha"
+    },
+    "lao-cha": {
+        "title": "Lao Cha",
+        "date": 2024,
+        "url": "",
+        "description": "The result is a holistic solution that provided Fingertip with established design rules for their widget library and a series of new widgets designed using best practices. This work will allow the team to expand in the future while maintaining harmony and reducing inconsistencies in their product.",
+        "types": ["Ui/Ux"],
+        "technologies": ["Figma"],
+        "status": "Canceled",
+        "cover": "https://player.vimeo.com/video/1043086684",
+        "images": [
+            ["Hero header", "https://player.vimeo.com/video/1043086684"],
+            ["Homepage Wireframe", "/assets/Project-Assets/LAO CHA/LAO CHA HOME PAGE MOCKUP.png"],
+            ["Register Wireframe", "/assets/Project-Assets/LAO CHA/LAO CHA NAVBAR MOCKUP.png"]
+        ],
+
+        "next": "nova"
+    }
+}
