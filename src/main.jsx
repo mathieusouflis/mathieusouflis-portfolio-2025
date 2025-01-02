@@ -11,11 +11,13 @@ import ProjectPage from './views/project.jsx';
 import Loader from './components/loader/Loader.jsx';
 import { LoaderProvider } from './hooks/loaderProvider.jsx';
 import Legal from './views/legal.jsx';
+import ReactLenis from 'lenis/react';
 
 
 const Layout = () => {
   return (
     <>
+      <ReactLenis root>
       <Loader />
       <Cursor />
       <header>
@@ -25,6 +27,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <Footer />
+      </ReactLenis>
     </>
   )
 }
