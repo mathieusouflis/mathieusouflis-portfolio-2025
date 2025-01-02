@@ -16,13 +16,12 @@ export default {
       fontFamily: {
         'practical': ['practical-serif'],
         'geist': ['Geist'],
-      }
+      },
     },
     screens: {
-      'mobile': {'max': '360px'},
-      'tablet': {'min': '361px', 'max': '768px'},
-      'desktop': {'min': '769px', 'max': '1280px'},
-      'wilde': {'min': '1281px', 'max': '1440px'},
+      'mobile': {'max': '425px'},
+      'tablet': {'min': '426px', 'max': '768px'},
+      'desktop': {'min': '769px'},
     }
   },
   plugins: [],

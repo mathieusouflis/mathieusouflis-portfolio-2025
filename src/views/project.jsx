@@ -42,7 +42,7 @@ const ProjectPage = () => {
 
                 <Display>{project.title}</Display>
                 <div className='flex flex-row tablet:flex-col mobile:flex-col w-full gap-5'>
-                    <Video className='border border-neutral-900 pointer-events-none w-[55%] h-fit tablet:w-auto aspect-[17/11]' url={project.cover} />
+                    <Video className='border border-neutral-900 pointer-events-none w-[55%] h-fit mobile:w-auto tablet:w-auto aspect-[17/11]' url={project.cover} />
                     <div className="flex flex-col gap-8 justify-between">
                         <div className='flex flex-col gap-5'>
                             {project?.date >= 0 && <DescriptionElement title="Date" content={[project.date]} />}
@@ -77,7 +77,7 @@ const ProjectPage = () => {
                 <Display className="absolute top-1/2 left-1/2 -translate-x-1/2 text-center -translate-y-1/2 z-10 text-white">Next Project</Display>
                 {nextProject.cover.startsWith("https://player.vimeo.com/") ? (
                     <div className="relative h-screen overflow-hidden">
-                        <Video className="absolute top-1/2 left-1/2 w-full aspect-[17/11] object-cover transform -translate-x-1/2 -translate-y-1/2 brightness-75" url={nextProject.cover} />
+                        <Video className="absolute top-1/2 left-1/2 desktop:w-full  mobile:h-full tablet:h-full mobile:w-auto tablet:w-auto aspect-[17/11] object-cover transform -translate-x-1/2 -translate-y-1/2 brightness-75" url={nextProject.cover} />
                     </div>
                 ) : (
                     <img className='border border-neutral-900 h-full' src={nextProject.cover} />

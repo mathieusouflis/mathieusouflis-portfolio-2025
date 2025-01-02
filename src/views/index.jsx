@@ -25,7 +25,6 @@ function Index() {
       </div>
       <div className='flex flex-row flex-wrap px-[10px] py-[90px] bg-gray-900 justify-center'>
         <RotatingText />
-    
       </div>
       <div className='px-5 mt-10 py-[50px] flex flex-col gap-16 h-screen max-w-screen'>
         <Header1>Projects</Header1>

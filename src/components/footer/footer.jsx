@@ -17,11 +17,11 @@ const Footer = () => {
                         <Body className="uppercase">Contact</Body>
                         <div className="h-px w-full bg-neutral-900"></div>
                     </div>
-                    <div className="flex flex-row flex-wrap justify-center gap-[60px]">
+                    <div className="flex flex-row flex-wrap justify-center gap-10 items-center">
                         <Display>Let's</Display>
                         <span className="relative overflow-hidden">
                             <Link onMouseOver={() => setText("text me")} onMouseOut={() => setText("")} to="mailto:mathieu@souflis.fr">
-                                <Display  className="before:content-['Connect'] before:absolute before:-top-full before:text-indigo-600 hover:translate-y-full transition-all duration-300 ease-slow"><span className="text-indigo-500">Connect</span></Display>
+                                <Display  className="before:content-['Connect'] before:absolute before:-top-full before:text-indigo-600 desktop:hover:translate-y-full transition-all duration-300 ease-slow"><span className="text-indigo-500">Connect</span></Display>
                             </Link>
                         </span>
                     </div>
@@ -36,8 +36,8 @@ const Footer = () => {
                                 <Icon name="mathieusouflis" />
                         </LinkWithLoader>
                         <div className="flex flex-row gap-[30px]">
-                            <Cta URL="https://www.linkedin.com/in/mathieusouflis/" iconName="linkedin">Linkedin</Cta>
-                            <Cta URL="https://www.bento.me/mathieusouflis/" iconName="bento">Bento</Cta>
+                            <Cta URL="https://www.linkedin.com/in/mathieusouflis/" loader={false} iconName="linkedin">Linkedin</Cta>
+                            <Cta URL="https://www.bento.me/mathieusouflis/" loader={false} iconName="bento">Bento</Cta>
                         </div>
                         <div className="flex justify-end w-full">
                             <Cta URL="/legal">Legal Mentions</Cta>

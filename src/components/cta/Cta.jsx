@@ -9,7 +9,7 @@ const Cta = ({ URL = "", iconName = null, className, loader = true, children, ..
     return (
         <>
             <div className="flex flex-row gap-[5px] items-center" {...props}>
-                {iconName ? <Icon className="fill-neutral-900" name={iconName} /> : null}
+                {iconName ? <Icon className="fill-neutral-900 mobile:hidden" name={iconName} /> : null}
                 {loader ? <LinkWithLoader to={URL}>{body}</LinkWithLoader> : <Link to={URL} >{body}</Link>}
             </div>
         </>

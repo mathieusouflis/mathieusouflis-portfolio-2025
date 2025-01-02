@@ -10,13 +10,13 @@ const About = () => {
       }, []);
 
     return <>
-        <div className="h-screen flex items-center justify-center px-5 ">
-            <Display className="text-center max-w-[1400px]">Designing & developing with passion to create unforgettable digital experiences.</Display>
+        <div className="min-h-screen flex items-center justify-center px-5 pt-[65px]">
+            <Display className="text-center max-w-[1400px]">Designing & developing with passion to convey emotions through digital experiences</Display>
         </div>
         <div className="min-h-screen flex flex-col items-center justify-center px-5">
-            <div className="w-[926px] pb-96 grid grid-flow-col gap-12">
-                <img className="pt-16 sticky top-0 w-full aspect-[16/18] object-cover" src="/assets/Mathieu Souflis.png" alt="the most beautifull man (mathieu souflis)" />
-                <div className="pt-16 flex flex-col gap-5 max-w-[453px]">
+            <div className="w-full max-w-[926px] tablet:w-2/3 mobile:w-auto pb-96 grid desktop:grid-flow-col wilde:grid-flow-col tablet:grid-flow-row mobile:grid-flow-row gap-12">
+                <img className="pt-16 desktop:sticky wilde:sticky tablet:static mobile:static desktop:w-fit top-0 w-full aspect-[16/18] object-cover" src="/assets/Mathieu Souflis.png" alt="the most beautifull man (mathieu souflis)" />
+                <div className="pt-16 flex flex-col gap-5 max-w-[453px] mobile:w-full tablet:max-w-full">
                     <Body className="leading-normal text-neutral-500">
                         <span className="font-semibold text-black">Passionate web developer</span>, curious and creative, I dive into the world of development and design every day. Currently a student at <span className="font-semibold text-black">HETIC (2024-2027)</span>, I am pursuing a <span className="font-semibold text-black">Bachelor's degree in Web Development</span> in Paris, where I have a strong thirst for learning. Prior to that, I earned my <span className="font-semibold text-black">high school diploma at La Source (2022-2024)</span>.
                     </Body>
@@ -34,7 +34,7 @@ const About = () => {
                     </Body>
                 </div>
             </div>
-            <div className="w-[926px] grid grid-flow-col gap-12 pb-28">
+            <div className="w-full max-w-[926px] tablet:w-2/3 mobile:w-auto grid grid-flow-col gap-12 pb-28">
                 <div className="flex flex-col gap-52">
                     <div className="flex flex-row gap-12">
                         <Header2Semibold>01</Header2Semibold>
