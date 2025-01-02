@@ -23,8 +23,7 @@ function Index() {
       <div onMouseOver={() => setText('SCROLL')} onMouseOut={() => setText('')} className="flex flex-col h-screen items-center justify-center">
         <Display className="text-center" >Mathieu souflis</Display>
       </div>
-      <div className='flex px-[10px] py-[90px] bg-gray-900 justify-center'>
-        {/* <Display className="text-white after:bg-white"><span className='text-indigo-400'>UX / UI</span> Designer</Display> */}
+      <div className='flex flex-row flex-wrap px-[10px] py-[90px] bg-gray-900 justify-center'>
         <RotatingText />
     
       </div>

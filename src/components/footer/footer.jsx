@@ -1,4 +1,4 @@
-import Cta from "../cta/cta";
+import Cta from "../cta/Cta";
 import Icon from "../icons/Icon";
 import { Body, Display } from "../typography/typography";
 import { useContext } from "react";
@@ -17,7 +17,7 @@ const Footer = () => {
                         <Body className="uppercase">Contact</Body>
                         <div className="h-px w-full bg-neutral-900"></div>
                     </div>
-                    <div className="flex gap-[60px]">
+                    <div className="flex flex-row flex-wrap justify-center gap-[60px]">
                         <Display>Let's</Display>
                         <span className="relative overflow-hidden">
                             <Link onMouseOver={() => setText("text me")} onMouseOut={() => setText("")} to="mailto:mathieu@souflis.fr">

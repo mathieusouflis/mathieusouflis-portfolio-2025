@@ -16,7 +16,7 @@ const RotatingText = () => {
         return () => clearInterval(interval);
     }, []);
 
-    return <Display className="text-white after:bg-white"><span className='text-indigo-400'>{texts[index][0]}</span> {texts[index][1]}</Display>
+    return <Display className="text-white text-center after:bg-white"><span className='text-indigo-400'>{texts[index][0]}</span> {texts[index][1]}</Display>
 }
 
 export default RotatingText

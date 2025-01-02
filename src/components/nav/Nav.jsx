@@ -1,4 +1,4 @@
-import Cta from "../cta/cta";
+import Cta from "../cta/Cta";
 import Icon from "../icons/Icon";
 import LinkWithLoader from "../loader/LinkLoader";
 

@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom';
 import projectsData from '../data/projectsData.json'; // Assurez-vous d'avoir un fichier de données pour vos projets
 import { Body, BodySemibold, Display } from '../components/typography/typography';
 import { CursorTextContext } from '../hooks/cursorProvider';
-import Cta from '../components/cta/cta';
 import LinkWithLoader from '../components/loader/LinkLoader';
 import Video from '../components/video/Video';
+import Cta from '../components/cta/Cta';
 
 const DescriptionElement = ({ title, content, className }) => {
     return (
@@ -37,10 +37,12 @@ const ProjectPage = () => {
 
     return (
         <>
-            <div onMouseOver={(e) => { if (!e.target.closest('.cta')) setText("SCROLL") }} onMouseOut={(e) => { if (!e.target.closest('.cta')) setText("") }} className="flex flex-col gap-[30px] justify-center h-screen px-5">
+            <div onMouseOver={(e) => { if (!e.target.closest('.cta')) setText("SCROLL") }} onMouseOut={(e) => { if (!e.target.closest('.cta')) setText("") }} className="flex flex-col gap-[30px] min-h-screen px-5">
+                <div className="py-5 pt-[85px]">
+
                 <Display>{project.title}</Display>
-                <div className='flex flex-row  w-full gap-5'>
-                    <Video className='border border-neutral-900 pointer-events-none w-[55%] aspect-[17/11]' url={project.cover} />
+                <div className='flex flex-row tablet:flex-col mobile:flex-col w-full gap-5'>
+                    <Video className='border border-neutral-900 pointer-events-none w-[55%] h-fit tablet:w-auto aspect-[17/11]' url={project.cover} />
                     <div className="flex flex-col gap-8 justify-between">
                         <div className='flex flex-col gap-5'>
                             {project?.date >= 0 && <DescriptionElement title="Date" content={[project.date]} />}
@@ -52,6 +54,7 @@ const ProjectPage = () => {
                         </div>
                         {project?.url !== "" && <Cta URL={project.url} onMouseOver={() => setText("")} className="relative font-semibold cta">Visit Website</Cta>}
                     </div>
+                </div>
                 </div>
             </div>
             <div className="project-images flex flex-col gap-[200px] py-36 items-center">
@@ -71,9 +74,9 @@ const ProjectPage = () => {
                 })}
             </div>
             <LinkWithLoader onMouseOver={() => setText("EXPLORE")} onMouseOut={() => setText("")} className="h-screen relative" to={`/works/${project.next}`}>
-                <Display className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-white">Next Project</Display>
+                <Display className="absolute top-1/2 left-1/2 -translate-x-1/2 text-center -translate-y-1/2 z-10 text-white">Next Project</Display>
                 {nextProject.cover.startsWith("https://player.vimeo.com/") ? (
-                    <div className="relative h-screen w-screen overflow-hidden">
+                    <div className="relative h-screen overflow-hidden">
                         <Video className="absolute top-1/2 left-1/2 w-full aspect-[17/11] object-cover transform -translate-x-1/2 -translate-y-1/2 brightness-75" url={nextProject.cover} />
                     </div>
                 ) : (

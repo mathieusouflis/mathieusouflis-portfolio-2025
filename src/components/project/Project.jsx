@@ -13,7 +13,6 @@ const Project = ({number=0, projectName="Project Name", type="type", videoUrl=""
                 <Header2>{number >= 10 ? number : `0${number}`}</Header2>
                 <Header2 className="uppercase" >{projectName}</Header2>
             </div>
-            {/* <video className="opacity-0 group-hover:block group-hover:opacity-100 transition-all border border-neutral-900 pointer-events-none w-auto h-2/3 max-h-full aspect-auto" loop muted autoPlay src={videoUrl} type="video/mp4" /> */}
             <div className="h-2/3 w-auto aspect-[17/11] max-h-full relative opacity-0 group-hover:block group-hover:opacity-100 transition-all">
                 <Video url={videoUrl} className="absolute top-0 left-0 border border-neutral-900 pointer-events-none h-full w-full" />
             </div>

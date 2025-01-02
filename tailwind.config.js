@@ -17,6 +17,12 @@ export default {
         'practical': ['practical-serif'],
         'geist': ['Geist'],
       }
+    },
+    screens: {
+      'mobile': {'max': '360px'},
+      'tablet': {'min': '361px', 'max': '768px'},
+      'desktop': {'min': '769px', 'max': '1280px'},
+      'wilde': {'min': '1281px', 'max': '1440px'},
     }
   },
   plugins: [],
