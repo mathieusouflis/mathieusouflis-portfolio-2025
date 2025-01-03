@@ -15,10 +15,10 @@ const About = () => {
         </div>
         <div className="min-h-screen flex flex-col items-center justify-center px-5">
             <div className="w-full max-w-[926px] tablet:w-2/3 mobile:w-auto pb-96 grid desktop:grid-flow-col wilde:grid-flow-col tablet:grid-flow-row mobile:grid-flow-row gap-12">
-                <img className="pt-16 desktop:sticky wilde:sticky tablet:static mobile:static desktop:w-fit top-0 w-full aspect-[10/15] object-cover" src="/assets/Mathieu Souflis.png" alt="the most beautifull man (mathieu souflis)" />
+                <img className="pt-16 desktop:sticky wilde:sticky tablet:static mobile:static desktop:w-fit top-0 w-full aspect-[10/15] object-cover" src="/assets/MathieuSouflis.png" alt="the most beautifull man (mathieu souflis)" />
                 <div className="pt-16 flex flex-col gap-5 max-w-[453px] mobile:w-full tablet:max-w-full">
                     <Body className="leading-normal text-neutral-500">
-                        <span className="font-semibold text-black">Passionate web developer</span>, curious and creative, I dive into the world of development and design every day. Currently a student at <span className="font-semibold text-black">HETIC (2024-2027)</span>, I am pursuing a <span className="font-semibold text-black">Bachelor's degree in Web Development</span> in Paris, where I have a strong thirst for learning. Prior to that, I earned my <span className="font-semibold text-black">high school diploma at La Source (2022-2024)</span>.
+                        <span className="font-semibold text-black">Passionate web developer</span>, curious and creative, I dive into the world of development and design every day. Currently a student at <span className="font-semibold text-black">HETIC (2024-2027)</span>, I am pursuing a <span className="font-semibold text-black">Bachelor's degree in Web Development</span> in Paris, where I have a strong thirst for learning. Prior to that, I had my <span className="font-semibold text-black">high school diploma at La Source (2022-2024)</span>.
                     </Body>
                     <Body className="leading-normal text-neutral-500">
                         With several professional experiences under my belt, I had the opportunity to work as an <span className="font-semibold text-black">observer intern at Redpelicans</span> and <span className="font-semibold text-black underline">soon as a freelancer</span>. These experiences have allowed me to gain a concrete understanding of the challenges in the professional world while fostering my sense of initiative and autonomy. Every mission is an opportunity for me to learn and deepen my skills.
@@ -66,12 +66,12 @@ const About = () => {
                             <div className="flex flex-col gap-[30px]">
                                 <div className="flex flex-col gap-[10px]">
                                     <Body className="uppercase text-neutral-500">HETIC_._2024/2027</Body>
-                                    <Body className="uppercase">Bachelor developpement web</Body>
+                                    <Body className="uppercase">Bachelor development web</Body>
                                     <Body className="uppercase text-neutral-500">Paris_/France</Body>
                                 </div>
                                 <div className="flex flex-col gap-[10px]">
                                     <Body className="uppercase text-neutral-500">La source._2022/2024</Body>
-                                    <Body className="uppercase">Baccaloreat General</Body>
+                                    <Body className="uppercase">Baccalauréat General</Body>
                                     <Body className="uppercase text-neutral-500">Paris_/France</Body>
                                 </div>
                             </div>

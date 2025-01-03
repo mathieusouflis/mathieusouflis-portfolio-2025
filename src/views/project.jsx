@@ -52,7 +52,7 @@ const ProjectPage = () => {
                             {project?.collaborators.length > 0 && <DescriptionElement title="Collaboration" content={project.collaborators} />}
                             {project?.status !== "" && <DescriptionElement title="Status" content={[project.status]} />}
                         </div>
-                        {project?.url !== "" && <Cta URL={project.url} onMouseOver={() => setText("")} className="relative font-semibold cta">Visit Website</Cta>}
+                        {project?.url !== "" && <Cta URL={project.url} loader={false} onMouseOver={() => setText("")} className="relative font-semibold cta">Visit Website</Cta>}
                     </div>
                 </div>
                 </div>
@@ -74,7 +74,7 @@ const ProjectPage = () => {
                 })}
             </div>
             <LinkWithLoader onMouseOver={() => setText("EXPLORE")} onMouseOut={() => setText("")} className="h-screen relative" to={`/works/${project.next}`}>
-                <Display className="absolute top-1/2 left-1/2 -translate-x-1/2 text-center -translate-y-1/2 z-10 text-white">Next Project</Display>
+                <Display className="absolute top-1/2 left-1/2 text-center -translate-x-1/2 -translate-y-1/2 z-10 text-white">Next Project</Display>
                 {nextProject.cover.startsWith("https://player.vimeo.com/") ? (
                     <div className="relative h-screen overflow-hidden">
                         <Video className="absolute top-1/2 left-1/2 desktop:w-full  mobile:h-full tablet:h-full mobile:w-auto tablet:w-auto aspect-[17/11] object-cover transform -translate-x-1/2 -translate-y-1/2 brightness-75" url={nextProject.cover} />
