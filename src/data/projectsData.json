@@ -61,7 +61,7 @@
         "title": "AI Research",
         "date": 2024,
         "url": "https://ai-project.mathieusouflis.com/",
-        "description": "AI Research is a deliverable from a project I worked on at HETIC that focused on AI and image generation. The project involved researching various AI technologies and integrating them into a web application. We explored image generation techniques and provided tutorials and benchmarks for users to understand the AI's capabilities. This project allowed me to gain insights into the rapidly advancing field of artificial intelligence and apply them in a practical setting.",
+        "description": "AI Research is a deliverable from a project I worked on at HETIC that focused on AI and image generation. The project involved researching various AI technologies and integrating them into a web application. We explored image generation techniques and provided tutorials and benchmarks for users to understand the AI's capabilities. This project allowed me to gain insights into the rapidly advancing field of artificial intelligence and apply them in a practical setting. (The website is working well only on computer)",
         "types": ["Frontend"],
         "technologies": ["React"],
         "status": "Finished",
