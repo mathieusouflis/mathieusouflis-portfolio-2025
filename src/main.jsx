@@ -15,6 +15,7 @@ import ReactLenis from 'lenis/react';
 
 
 const Layout = () => {
+  console.log('  /\\_/\\  (\n ( ^.^ ) _)I ❤️ CATS\n   \\"/  ( \n ( | | )\n(__d b__)')
   return (
     <>
       <ReactLenis root>
