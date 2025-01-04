@@ -10,7 +10,7 @@ const About = () => {
       }, []);
 
     return <>
-        <div className="min-h-screen flex items-center justify-center px-5 pt-[65px]">
+        <div onMouseOver={() => setText("SCROLL")} onMouseOut={() => setText("")} className="min-h-screen flex items-center justify-center px-5 pt-[65px]">
             <Display className="text-center max-w-[1400px]">Designing & developing with passion to convey emotions through digital experiences</Display>
         </div>
         <div className="min-h-screen flex flex-col items-center justify-center px-5">
