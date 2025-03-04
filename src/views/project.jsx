@@ -24,6 +24,7 @@ const ProjectPage = () => {
     const { setText } = useContext(CursorTextContext);
     const { projectId } = useParams();
     const project = projectsData[projectId];
+    
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -42,7 +43,13 @@ const ProjectPage = () => {
 
                 <Display>{project.title}</Display>
                 <div className='flex flex-row tablet:flex-col mobile:flex-col w-full gap-5'>
-                    <Video className='border border-neutral-900 pointer-events-none w-[55%] h-fit mobile:w-auto tablet:w-auto aspect-[17/11]' url={project.cover} />
+                {
+                project.cover.endsWith(".png") 
+                ?
+                <img className='border border-neutral-900 pointer-events-none w-[55%] h-fit mobile:w-auto tablet:w-auto aspect-[17/11]' src={project.cover} /> 
+                :
+                <Video className='border border-neutral-900 pointer-events-none w-[55%] h-fit mobile:w-auto tablet:w-auto aspect-[17/11]' url={project.cover} />
+                }
                     <div className="flex flex-col gap-8 justify-between">
                         <div className='flex flex-col gap-5'>
                             {project?.date >= 0 && <DescriptionElement title="Date" content={[project.date]} />}

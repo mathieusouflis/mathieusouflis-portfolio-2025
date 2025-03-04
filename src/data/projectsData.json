@@ -1,4 +1,35 @@
 {
+    "redit-design-system": {
+        "title": "Redit Design System",
+        "date": 2025,
+        "url": "https://www.figma.com/design/0Fa3CakIA20tN4TxLMGhzn/Design-System?node-id=8830-5328&t=tlRQWfDr2CkLV13v-1",
+        "description": "Our project focused on creating a Design System to ensure consistency and flexibility. We began by analyzing interfaces and capturing screens to identify key components and states. Benchmarking existing Design Systems helped us refine our approach. We designed modular components using variables for adaptability and coherence. An interactive prototype was then developed, integrating a light and dark theme system to showcase the Design System's practical application. This process resulted in a scalable and cohesive interface, balancing aesthetics and technical efficiency.",
+        "types": ["Ui/Ux"],
+        "technologies": ["Figma"],
+        "status": "Finised",
+        "collaborators": [],
+        "cover": "/assets/Project-Assets/RedditDS/Cover.png",
+        "images": [
+            ["Inspiration", "/assets/Project-Assets/RedditDS/Inspiration.png"],
+            ["Colors", "/assets/Project-Assets/RedditDS/Colors.png"],
+            ["Icons", "/assets/Project-Assets/RedditDS/Icons.png"],
+            ["Typography", "/assets/Project-Assets/RedditDS/Typo.png"],
+            ["Utilities", "/assets/Project-Assets/RedditDS/Utilities.png"],
+            ["App Headers", "/assets/Project-Assets/RedditDS/AppHeaders.png"],
+            ["Badges", "/assets/Project-Assets/RedditDS/Badges.png"],
+            ["Users", "/assets/Project-Assets/RedditDS/User.png"],
+            ["Logo", "/assets/Project-Assets/RedditDS/Logo.png"],
+            ["Buttons", "/assets/Project-Assets/RedditDS/Buttons.png"],
+            ["Caroussel", "/assets/Project-Assets/RedditDS/Carousel.png"],
+            ["Switch", "/assets/Project-Assets/RedditDS/Switch.png"],
+            ["Tabs", "/assets/Project-Assets/RedditDS/Tabs.png"],
+            ["Inputs", "/assets/Project-Assets/RedditDS/Inputs.png"],
+            ["Search", "/assets/Project-Assets/RedditDS/Search.png"],
+            ["Components", "/assets/Project-Assets/RedditDS/Components.png"],
+            ["Vues", "/assets/Project-Assets/RedditDS/Vues.png"]
+        ],
+        "next": "nova"
+    },
     "nova": {
         "title": "Nova",
         "date": 2024,
@@ -95,6 +126,6 @@
             ["Register Wireframe", "/assets/Project-Assets/LAO CHA/LAO CHA NAVBAR MOCKUP.png"]
         ],
 
-        "next": "nova"
+        "next": "redit-design-system"
     }
 }
