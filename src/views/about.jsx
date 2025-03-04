@@ -47,7 +47,7 @@ const About = () => {
                                     <Body className="uppercase text-neutral-500">Paris_/France</Body>
                                 </div>
                                 <div className="flex flex-col gap-[10px]">
-                                    <Body className="uppercase text-neutral-500">Freelance_._2023/2023_(2Weeks)</Body>
+                                    <Body className="uppercase text-neutral-500">Renault_Digital_._2023/2023_(2Weeks)</Body>
                                     <Body className="uppercase">Observer intern</Body>
                                     <Body className="uppercase text-neutral-500">Paris_/France</Body>
                                 </div>

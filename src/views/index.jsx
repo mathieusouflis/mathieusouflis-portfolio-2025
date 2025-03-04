@@ -29,11 +29,11 @@ function Index() {
       <div className='px-5 mt-10 py-[50px] flex flex-col gap-16 h-screen max-w-screen'>
         <Header1>Projects</Header1>
         <div className='flex flex-col justify-self-center h-4/5 max-w-full'>
-          <Project className='border-t-0' number={1} projectName={project1.title} type={project1.types.join(" - ")} year={project1.year} videoUrl={project1.cover}/>
-          <Project number={2} projectName={project2.title} type={project2.types.join(" - ")} year={project2.year} videoUrl={project2.cover}/>
-          <Project number={3} projectName={project3.title} type={project3.types.join(" - ")} year={project3.year} videoUrl={project3.cover}/>
-          <Project number={4} projectName={project4.title} type={project4.types.join(" - ")} year={project4.year} videoUrl={project4.cover}/>
-          <Project className='border-b-0' number={5} projectName={project5.title} type={project5.types.join(" - ")} year={project5.year} videoUrl={project5.cover}/>
+          <Project className='border-t-0' number={1} projectName={project1.title} type={project1.types.join(" - ")} year={project1.date} videoUrl={project1.cover}/>
+          <Project number={2} projectName={project2.title} type={project2.types.join(" - ")} year={project2.date} videoUrl={project2.cover}/>
+          <Project number={3} projectName={project3.title} type={project3.types.join(" - ")} year={project3.date} videoUrl={project3.cover}/>
+          <Project number={4} projectName={project4.title} type={project4.types.join(" - ")} year={project4.date} videoUrl={project4.cover}/>
+          <Project className='border-b-0' number={5} projectName={project5.title} type={project5.types.join(" - ")} year={project5.date} videoUrl={project5.cover}/>
         </div>
       </div>
     </>
